@@ -128,7 +128,7 @@ export default function DivSideBar() {
       <Navbar
         onMenuOpenChange={setNavOpen}
         isBordered
-        className="border-primary/30"
+        className="block border-primary/30 sm:hidden"
       >
         <NavbarMenu>
           <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">

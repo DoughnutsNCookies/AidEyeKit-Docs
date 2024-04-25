@@ -81,8 +81,8 @@ export default function Installation() {
           </ul>
         </div>
         <div className="flex flex-row justify-between">
-          <div className="w-[40%]" />
-          <NextLink href="/installation" className="w-[40%]">
+          <div className="w-[45%]" />
+          <NextLink href="/installation" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"

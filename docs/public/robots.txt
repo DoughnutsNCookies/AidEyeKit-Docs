@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://schuah-nextjs-template.vercel.app
+
+# Sitemaps
+Sitemap: https://schuah-nextjs-template.vercel.app/sitemap.xml

@@ -50,7 +50,7 @@ export default function Installation() {
             </li>
             <li>
               <Link
-                href="https://linkedin/com/company/AidEyeKit"
+                href="https://linkedin.com/company/AidEyeKit"
                 className="flex flex-row gap-2"
               >
                 <FaLinkedin size={24} /> linkedin/com/company/AidEyeKit

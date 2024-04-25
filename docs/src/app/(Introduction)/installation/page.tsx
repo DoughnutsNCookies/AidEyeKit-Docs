@@ -26,10 +26,12 @@ export default function Installation() {
           <Code color="primary" className="py-4">
             <span className="text-red-400">import</span> {`{ aideye }`}{" "}
             <span className="text-red-400">from</span>{" "}
-            <span className="text-yellow-400">"aideyekit"</span>;
+            <span className="text-yellow-400">&quot;aideyekit&quot;</span>;
             <br />
             <span className="text-red-400">import</span>{" "}
-            <span className="text-yellow-400">"aideyekit/dist/aideye.css"</span>
+            <span className="text-yellow-400">
+              &quot;aideyekit/dist/aideye.css&quot;
+            </span>
             ;
           </Code>
         </div>

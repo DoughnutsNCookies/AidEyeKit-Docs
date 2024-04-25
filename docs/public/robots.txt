@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://schuah-nextjs-template.vercel.app
+Host: https://docs.aideyekit.com
 
 # Sitemaps
-Sitemap: https://schuah-nextjs-template.vercel.app/sitemap.xml
+Sitemap: https://docs.aideyekit.com/sitemap.xml

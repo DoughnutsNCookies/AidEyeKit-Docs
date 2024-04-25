@@ -35,19 +35,17 @@ const templateConfig = {
    * https://metatags.io
    */
   metadata: {
-    title:
-      "NextJS Template | Skip the boring setup and start building instantly",
+    title: "AidEyeKit Documentation | Official Documentation for AidEyeKit",
     description:
-      "NextJS Template is a starter template for NextJS projects to quickly bootstrap your frontend project. Features including NextUI and React-Icons.",
+      "All the information you need to get started with AidEyeKit, with examples and demo built into this documentation.",
     keywords:
-      "nextjs, template, starter, project, email, authentication, database",
+      "aideyekit, aideye, onboarding, guide, visual, overlay, tooltip, walkthrough",
     authors: [{ name: "Sean Chuah" }],
-    url: "https://schuah-nextjs-template.vercel.app",
+    url: "https://docs.aideyekit.com",
     siteName: "NextJS Template",
-    metaTagImage:
-      "https://schuah-nextjs-template.vercel.app/brand/metaTagImage.svg",
-    faviconImage: "https://schuah-nextjs-template.vercel.app/brand/favicon.ico",
-    twitterHandle: "@NextJSTemplate",
+    metaTagImage: "https://docs.aideyekit.com/brand/metaTagImage.svg",
+    faviconImage: "https://docs.aideyekit.com/brand/favicon.ico",
+    twitterHandle: "@AidEyeKit",
     twitterCreator: "@DoughnutNCookie",
   },
 };

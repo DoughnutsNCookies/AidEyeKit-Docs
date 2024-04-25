@@ -1,8 +1,8 @@
 import DivSideBar from "@/components/DivSidebar";
-import { Button } from "@nextui-org/react";
+import { Button, Link as NextUILink } from "@nextui-org/react";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare, FaLinkedin, FaArrowRight } from "react-icons/fa";
-import Link from "next/link";
+import NextLink from "next/link";
 
 export default function Installation() {
   return (
@@ -34,28 +34,28 @@ export default function Installation() {
           <h2 className="text-4xl">Social Medias</h2>
           <ul className="flex flex-col gap-2">
             <li>
-              <Link
+              <NextUILink
                 href="https://x.com/AidEyeKit"
                 className="flex flex-row gap-2"
               >
                 <FaSquareXTwitter size={24} /> x.com/AidEyeKit
-              </Link>
+              </NextUILink>
             </li>
             <li>
-              <Link
+              <NextUILink
                 href="https://facebook.com/AidEyeKit"
                 className="flex flex-row gap-2"
               >
                 <FaFacebookSquare size={24} /> facebook.com/AidEyeKit
-              </Link>
+              </NextUILink>
             </li>
             <li>
-              <Link
+              <NextUILink
                 href="https://linkedin.com/company/AidEyeKit"
                 className="flex flex-row gap-2"
               >
                 <FaLinkedin size={24} /> linkedin/com/company/AidEyeKit
-              </Link>
+              </NextUILink>
             </li>
           </ul>
         </div>
@@ -63,20 +63,23 @@ export default function Installation() {
           <h2 className="text-4xl">Authors</h2>
           <ul>
             <li>
-              <Link href="https://github.com/DoughnutsNCookies" target="_blank">
+              <NextUILink
+                href="https://github.com/DoughnutsNCookies"
+                target="_blank"
+              >
                 @DoughnutsNCookies
-              </Link>
+              </NextUILink>
             </li>
             <li>
-              <Link href="https://github.com/nuyiep" target="_blank">
+              <NextUILink href="https://github.com/nuyiep" target="_blank">
                 @nuyiep
-              </Link>
+              </NextUILink>
             </li>
           </ul>
         </div>
         <div className="flex flex-row justify-between">
           <div className="w-[40%]" />
-          <Link href="/installation" className="w-[40%]">
+          <NextLink href="/installation" className="w-[40%]">
             <Button
               size="md"
               variant="ghost"
@@ -86,7 +89,7 @@ export default function Installation() {
             >
               Installation
             </Button>
-          </Link>
+          </NextLink>
         </div>
       </div>
     </main>

@@ -1,15 +1,15 @@
 import DivSideBar from "@/components/DivSidebar";
-import { Link } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaArrowRight } from "react-icons/fa";
 
 export default function Installation() {
   return (
-    <main className="flex flex-row">
+    <main className="flex flex-col sm:flex-row xl:h-screen">
       <DivSideBar />
-      <div className="ml-10 mt-20 flex w-[50vw] min-w-[50vw] flex-col gap-10">
+      <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 lg:w-[50vw] lg:min-w-[50vw]">
         <div className="flex flex-col gap-2">
-          <h1 className="text-5xl">
+          <h1 className="text-4xl sm:text-5xl">
             <span className="text-primary">Ai</span>dEyeKit Documentation
           </h1>
           <p>
@@ -18,7 +18,7 @@ export default function Installation() {
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <h2 className="text-4xl">
+          <h2 className="text-3xl sm:text-4xl">
             Why <span className="text-primary">Ai</span>dEyeKit?
           </h2>
           <ul className="ml-4 list-decimal">
@@ -72,6 +72,18 @@ export default function Installation() {
               </Link>
             </li>
           </ul>
+        </div>
+        <div className="flex flex-row justify-between">
+          <div className="w-[40%]" />
+          <Button
+            size="md"
+            variant="ghost"
+            color="primary"
+            endContent={<FaArrowRight />}
+            className="w-[40%]"
+          >
+            Installation
+          </Button>
         </div>
       </div>
     </main>

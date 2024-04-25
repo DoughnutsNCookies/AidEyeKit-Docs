@@ -57,7 +57,7 @@ export default function Installation() {
                 className="flex flex-row gap-2"
               >
                 <FaLinkedin size={24} />
-                linkedin/com/company/AidEyeKit
+                linkedin.com/company/AidEyeKit
               </NextUILink>
             </li>
           </ul>

@@ -57,6 +57,7 @@ export default function DivSideBar() {
               width={75}
               height={75}
               alt="AidEyeKit Logo"
+              title="AidEyeKit Logo"
               src="/brand/logo.svg"
             />
           </Link>
@@ -176,6 +177,7 @@ export default function DivSideBar() {
                 width={40}
                 height={40}
                 src="brand/logo.svg"
+                title="AidEyeKit Logo"
                 alt="AidEyeKit Logo"
               />
               <p className="font-bold">

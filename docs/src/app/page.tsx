@@ -10,7 +10,7 @@ export default function Installation() {
       <DivSideBar />
       <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 lg:w-[50vw] lg:min-w-[50vw]">
         <div className="flex flex-col gap-2">
-          <h1 className="text-4xl sm:text-5xl">
+          <h1 className="text-4xl font-bold sm:text-5xl">
             <span className="text-primary">Ai</span>dEyeKit Documentation
           </h1>
           <p>
@@ -19,7 +19,7 @@ export default function Installation() {
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <h2 className="text-3xl sm:text-4xl">
+          <h2 className="text-2xl font-bold sm:text-3xl">
             Why <span className="text-primary">Ai</span>dEyeKit?
           </h2>
           <ul className="ml-4 list-decimal">
@@ -31,14 +31,15 @@ export default function Installation() {
           </ul>
         </div>
         <div className="flex flex-col gap-2">
-          <h2 className="text-4xl">Social Medias</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl">Social Medias</h2>
           <ul className="flex flex-col gap-2">
             <li>
               <NextUILink
                 href="https://x.com/AidEyeKit"
                 className="flex flex-row gap-2"
               >
-                <FaSquareXTwitter size={24} /> x.com/AidEyeKit
+                <FaSquareXTwitter size={24} />
+                x.com/AidEyeKit
               </NextUILink>
             </li>
             <li>
@@ -46,7 +47,8 @@ export default function Installation() {
                 href="https://facebook.com/AidEyeKit"
                 className="flex flex-row gap-2"
               >
-                <FaFacebookSquare size={24} /> facebook.com/AidEyeKit
+                <FaFacebookSquare size={24} />
+                facebook.com/AidEyeKit
               </NextUILink>
             </li>
             <li>
@@ -54,13 +56,14 @@ export default function Installation() {
                 href="https://linkedin.com/company/AidEyeKit"
                 className="flex flex-row gap-2"
               >
-                <FaLinkedin size={24} /> linkedin/com/company/AidEyeKit
+                <FaLinkedin size={24} />
+                linkedin/com/company/AidEyeKit
               </NextUILink>
             </li>
           </ul>
         </div>
         <div className="flex flex-col gap-2">
-          <h2 className="text-4xl">Authors</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl">Authors</h2>
           <ul>
             <li>
               <NextUILink

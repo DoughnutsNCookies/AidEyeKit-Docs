@@ -6,10 +6,8 @@ import {
   Navbar,
   NavbarBrand,
   NavbarContent,
-  NavbarItem,
   NavbarMenuToggle,
   NavbarMenu,
-  NavbarMenuItem,
 } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 
@@ -44,18 +42,10 @@ const demo: LinkSection[] = [
 
 export default function DivSideBar() {
   const [currentPage, setCurrentPage] = useState<string>("");
-  const [windowWidth, setWindowWidth] = useState<number>(0);
   const [navOpen, setNavOpen] = useState<boolean>(false);
 
   useEffect(() => {
     setCurrentPage(window.location.pathname);
-
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-    setWindowWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (

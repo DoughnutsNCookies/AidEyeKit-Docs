@@ -82,7 +82,7 @@ export default function Installation() {
             endContent={<FaArrowRight />}
             className="w-[40%]"
           >
-            Installation
+            <Link href="/installation">Installation</Link>
           </Button>
         </div>
       </div>

@@ -1,7 +1,8 @@
 import DivSideBar from "@/components/DivSidebar";
-import { Button, Link } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare, FaLinkedin, FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Installation() {
   return (
@@ -75,15 +76,17 @@ export default function Installation() {
         </div>
         <div className="flex flex-row justify-between">
           <div className="w-[40%]" />
-          <Button
-            size="md"
-            variant="ghost"
-            color="primary"
-            endContent={<FaArrowRight />}
-            className="w-[40%]"
-          >
-            <Link href="/installation">Installation</Link>
-          </Button>
+          <Link href="/installation" className="w-[40%]">
+            <Button
+              size="md"
+              variant="ghost"
+              color="primary"
+              endContent={<FaArrowRight />}
+              fullWidth
+            >
+              Installation
+            </Button>
+          </Link>
         </div>
       </div>
     </main>

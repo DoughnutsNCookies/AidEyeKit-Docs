@@ -3,7 +3,7 @@ import { Button } from "@nextui-org/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import NextLink from "next/link";
 
-export default function Installation() {
+export default function ApiList() {
   return (
     <main className="flex flex-col sm:h-screen sm:flex-row">
       <DivSideBar />

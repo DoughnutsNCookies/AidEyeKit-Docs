@@ -22,9 +22,16 @@ class LinkSection {
 }
 
 const introduction: LinkSection[] = [
+  new LinkSection("Home", ""),
   new LinkSection("Installation", "installation"),
   new LinkSection("Example", "example"),
-  new LinkSection("Configuration", "configuration"),
+];
+
+const configuration: LinkSection[] = [
+  new LinkSection("AidEye", "aideye"),
+  new LinkSection("Popover", "popover"),
+  new LinkSection("AidEyeStep", "aideyestep"),
+  new LinkSection("State", "state"),
   new LinkSection("API List", "api-list"),
   new LinkSection("Theme", "theme"),
 ];
@@ -50,8 +57,8 @@ export default function DivSideBar() {
 
   return (
     <div>
-      <aside className="hidden w-[25vw] min-w-[25vw] items-center sm:block">
-        <div className="mt-20 flex flex-col items-end justify-between gap-4 p-4 pt-0 text-end">
+      <aside className="my-20 ml-4 hidden w-[25vw] min-w-[25vw] items-center sm:block">
+        <div className="flex flex-col items-end justify-between gap-4 pb-4 pr-4 text-end">
           <Link href="/">
             <Image
               width={75}
@@ -78,7 +85,7 @@ export default function DivSideBar() {
           </div>
         </div>
         <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">
-          <h3 className="text-xl font-bold">Introduction</h3>
+          <h3 className="text-xl font-bold text-primary">Introduction</h3>
           <ul className="flex flex-col items-end gap-1 text-text/50">
             {introduction.map((link: LinkSection) => {
               const { title, href } = link;
@@ -97,7 +104,26 @@ export default function DivSideBar() {
           </ul>
         </div>
         <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">
-          <h3 className="text-xl font-bold">Demo</h3>
+          <h3 className="text-xl font-bold text-primary">Configuration</h3>
+          <ul className="flex flex-col items-end gap-1 text-text/50">
+            {configuration.map((link: LinkSection) => {
+              const { title, href } = link;
+              return (
+                <Link
+                  key={title}
+                  className={`${
+                    currentPage === `/${href}` ? "text-text" : "text-text/50"
+                  } transition-all ease-in-out hover:text-text`}
+                  href={`/${href}`}
+                >
+                  {title.charAt(0).toUpperCase() + title.slice(1)}
+                </Link>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">
+          <h3 className="text-xl font-bold text-primary">Demo</h3>
           <ul className="flex flex-col items-end gap-1 text-text/50">
             {demo.map((link: LinkSection) => {
               const { title, href } = link;

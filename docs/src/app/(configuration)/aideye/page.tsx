@@ -129,9 +129,9 @@ const config = [
     Description: "Array of buttons to show in the popover.",
     Default: (
       <Code color="primary">
-        ["next",
-        <br /> "previous",
-        <br /> "close"]
+        [&quot;next&quot;,
+        <br /> &quot;previous&quot;,
+        <br /> &quot;close&quot;]
       </Code>
     ),
   },

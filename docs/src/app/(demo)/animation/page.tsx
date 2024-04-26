@@ -23,7 +23,7 @@ export default function Animation() {
               Highlighting
             </Button>
           </NextLink>
-          <NextLink href="/animation" className="w-[45%]">
+          <NextLink href="/styling" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"

@@ -2,6 +2,7 @@ import DivSideBar from "@/components/DivSidebar";
 import { Button, Code, Link as NextUILink } from "@nextui-org/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import NextLink from "next/link";
+import SpanCode from "@/components/SpanCode";
 
 export default function Installation() {
   return (
@@ -12,8 +13,8 @@ export default function Installation() {
           <h1 className="text-4xl font-bold sm:text-5xl">Installation</h1>
           <p>Run the following command to install the package.</p>
           <Code color="primary" className="p-4">
-            <span className="text-red-400">npm</span>{" "}
-            <span className="text-yellow-400">install aideyekit</span>
+            <SpanCode text="npm" color="red" />{" "}
+            <SpanCode text="install aideyekit" color="yellow" />
           </Code>
           <p>Content Delivery Network (CDN) will be supported soon!</p>
         </div>
@@ -24,15 +25,17 @@ export default function Installation() {
             the following code.
           </p>
           <Code color="primary" className="p-4">
-            <span className="text-red-400">import</span> {`{ aideye }`}{" "}
-            <span className="text-red-400">from</span>{" "}
-            <span className="text-yellow-400">&quot;aideyekit&quot;</span>;
+            <SpanCode text="import" color="red" />{" "}
+            <SpanCode text="{" color="white" />{" "}
+            <SpanCode text="aideye" color="purple" />{" "}
+            <SpanCode text="}" color="white" />{" "}
+            <SpanCode text="from" color="red" />{" "}
+            <SpanCode text="aidyekit" color="primary" />
+            <SpanCode text=";" color="white" />
             <br />
-            <span className="text-red-400">import</span>{" "}
-            <span className="text-yellow-400">
-              &quot;aideyekit/dist/aideye.css&quot;
-            </span>
-            ;
+            <SpanCode text="import" color="red" />{" "}
+            <SpanCode text='"aideyekit/dist/aideye.css"' color="primary" />
+            <SpanCode text=";" color="white" />
           </Code>
         </div>
         <div className="flex flex-row justify-between">

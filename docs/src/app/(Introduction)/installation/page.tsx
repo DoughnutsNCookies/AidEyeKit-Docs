@@ -11,7 +11,7 @@ export default function Installation() {
         <div className="flex flex-col gap-8">
           <h1 className="text-4xl font-bold sm:text-5xl">Installation</h1>
           <p>Run the following command to install the package.</p>
-          <Code color="primary" className="py-4">
+          <Code color="primary" className="p-4">
             <span className="text-red-400">npm</span>{" "}
             <span className="text-yellow-400">install aideyekit</span>
           </Code>
@@ -23,7 +23,7 @@ export default function Installation() {
             Once installed, you can import the package into your project using
             the following code.
           </p>
-          <Code color="primary" className="py-4">
+          <Code color="primary" className="p-4">
             <span className="text-red-400">import</span> {`{ aideye }`}{" "}
             <span className="text-red-400">from</span>{" "}
             <span className="text-yellow-400">&quot;aideyekit&quot;</span>;

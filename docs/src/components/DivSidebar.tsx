@@ -168,6 +168,25 @@ export default function DivSideBar() {
             </ul>
           </div>
           <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">
+            <h3 className="text-xl font-bold text-primary">Configuration</h3>
+            <ul className="flex flex-col items-end gap-1 text-text/50">
+              {configuration.map((link: LinkSection) => {
+                const { title, href } = link;
+                return (
+                  <Link
+                    key={title}
+                    className={`${
+                      currentPage === `/${href}` ? "text-text" : "text-text/50"
+                    } transition-all ease-in-out hover:text-text`}
+                    href={`/${href}`}
+                  >
+                    {title.charAt(0).toUpperCase() + title.slice(1)}
+                  </Link>
+                );
+              })}
+            </ul>
+          </div>
+          <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">
             <h3 className="text-xl font-bold text-primary">Demo</h3>
             <ul className="flex flex-col items-end gap-1 text-text/50">
               {demo.map((link: LinkSection) => {

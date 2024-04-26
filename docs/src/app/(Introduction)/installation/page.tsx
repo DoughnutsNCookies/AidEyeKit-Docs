@@ -13,8 +13,8 @@ export default function Installation() {
           <h1 className="text-4xl font-bold sm:text-5xl">Installation</h1>
           <p>Run the following command to install the package.</p>
           <Code color="primary" className="p-4">
-            <SpanCode text="npm" color="red" />{" "}
-            <SpanCode text="install aideyekit" color="yellow" />
+            <SpanCode text="npm" color="purple" />{" "}
+            <SpanCode text="install aideyekit" color="primary" />
           </Code>
           <p>Content Delivery Network (CDN) will be supported soon!</p>
         </div>

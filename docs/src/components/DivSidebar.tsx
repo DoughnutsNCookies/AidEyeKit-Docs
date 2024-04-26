@@ -25,7 +25,7 @@ const introduction: LinkSection[] = [
   new LinkSection("Installation", "installation"),
   new LinkSection("Example", "example"),
   new LinkSection("Configuration", "configuration"),
-  new LinkSection("API Reference", "api-reference"),
+  new LinkSection("API List", "api-list"),
   new LinkSection("Theme", "theme"),
 ];
 

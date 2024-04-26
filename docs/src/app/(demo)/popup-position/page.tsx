@@ -5,7 +5,7 @@ import NextLink from "next/link";
 
 export default function PopupPosition() {
   return (
-    <main className="flex flex-col sm:h-screen sm:flex-row">
+    <main className="flex flex-col sm:flex-row">
       <DivSideBar />
       <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 lg:w-[50vw] lg:min-w-[50vw]">
         <div className="flex flex-col gap-2">

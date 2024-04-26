@@ -1,6 +1,6 @@
 interface SpanCodeProps {
   text: string;
-  color: "primary" | "red" | "yellow" | "purple" | "white";
+  color: "primary" | "red" | "yellow" | "purple" | "white" | "grey";
 }
 
 export default function SpanCode(props: SpanCodeProps) {
@@ -11,6 +11,7 @@ export default function SpanCode(props: SpanCodeProps) {
     purple: "text-purple-400",
     white: "text-white",
     primary: "text-primary",
+    grey: "text-white/60",
   };
   return <span className={fixedColors[color]}>{text}</span>;
 }

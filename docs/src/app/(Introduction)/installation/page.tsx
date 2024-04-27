@@ -37,7 +37,7 @@ export default function Installation() {
             <SpanCode text="aideye" color="purple" />{" "}
             <SpanCode text="}" color="white" />{" "}
             <SpanCode text="from" color="red" />{" "}
-            <SpanCode text="aidyekit" color="primary" />
+            <SpanCode text='"aideyekit"' color="primary" />
             <SpanCode text=";" color="white" />
             <br />
             <SpanCode text="import" color="red" />{" "}

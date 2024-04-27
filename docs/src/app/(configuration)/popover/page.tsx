@@ -397,8 +397,8 @@ export default function Popover() {
                   hooks, you control the navigation of the driver.
                 </p>
                 <p>
-                  This means that user won&apos;t be able to navigate using the
-                  buttons and you will have to either call{" "}
+                  This means that the user won&apos;t be able to navigate using
+                  the buttons and you will have to either call{" "}
                   <Code
                     color="primary"
                     className="bg-background/50 text-primary"

@@ -688,7 +688,7 @@ export default function AidEye() {
                   hooks, you control the navigation of the driver.
                 </p>
                 <p>
-                  This means that user won&apos;t be able to navigate using the
+                  This means that the user won&apos;t be able to navigate using the
                   buttons and you will have to either call{" "}
                   <Code
                     color="primary"

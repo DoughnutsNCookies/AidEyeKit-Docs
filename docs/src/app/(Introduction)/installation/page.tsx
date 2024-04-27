@@ -54,7 +54,7 @@ export default function Installation() {
                   properly.
                 </p>
                 <p>
-                  If you are want to style your own guide, you can visit the{" "}
+                  If you want to style your own guide, you can visit the{" "}
                   <NextUILink underline="always" href="/styling">
                     Styling
                   </NextUILink>{" "}

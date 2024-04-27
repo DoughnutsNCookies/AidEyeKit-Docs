@@ -20,7 +20,7 @@ export default function Theme() {
               startContent={<FaArrowLeft />}
               fullWidth
             >
-              Api List
+              API List
             </Button>
           </NextLink>
           <NextLink href="/highlighting" className="w-[45%]">

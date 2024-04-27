@@ -51,10 +51,10 @@ const popover = [
     Attribute: "side",
     Type: (
       <Code color="primary">
-        "top"
-        <br />| "right"
-        <br />| "bottom"
-        <br />| "left"
+        &quot;top&quot;
+        <br />| &quot;right&quot;
+        <br />| &quot;bottom&quot;
+        <br />| &quot;left&quot;
       </Code>
     ),
     Description: "The position of the popover relative to the target element.",
@@ -64,9 +64,9 @@ const popover = [
     Attribute: "align",
     Type: (
       <Code color="primary">
-        "start"
-        <br />| "center"
-        <br />| "end"
+        &quot;start&quot;
+        <br />| &quot;center&quot;
+        <br />| &quot;end&quot;
       </Code>
     ),
     Description: "The alignment of the popover relative to the target element.",
@@ -76,9 +76,9 @@ const popover = [
     Attribute: "showButtons",
     Type: (
       <Code color="primary">
-        ("next"
-        <br />| "previous"
-        <br />| "close")[]
+        (&quot;next&quot;
+        <br />| &quot;previous&quot;
+        <br />| &quot;close&quot;)[]
       </Code>
     ),
     Description:
@@ -89,9 +89,9 @@ const popover = [
     Attribute: "disableButtons",
     Type: (
       <Code color="primary">
-        ("next"
-        <br />| "previous"
-        <br />| "close")[]
+        (&quot;next&quot;
+        <br />| &quot;previous&quot;
+        <br />| &quot;close&quot;)[]
       </Code>
     ),
     Description: "An array of buttons to disable.",
@@ -133,8 +133,8 @@ const popover = [
           <Code color="primary">{`{{total}}`}</Code> as placeholders.
         </p>
         <p>
-          Eg: '<Code color="primary">{`{{current}}`}</Code> of{" "}
-          <Code color="primary">{`{{total}}`}</Code>'
+          Eg: &quot;<Code color="primary">{`{{current}}`}</Code> of{" "}
+          <Code color="primary">{`{{total}}`}</Code>&quot;
         </p>
       </div>
     ),

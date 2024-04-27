@@ -90,9 +90,8 @@ export default function DivSideBar() {
             {introduction.map((link: LinkSection) => {
               const { title, href } = link;
               return (
-                <li>
+                <li key={title}>
                   <Link
-                    key={title}
                     className={`${
                       currentPage === `/${href}` ? "text-text" : "text-text/50"
                     } transition-all ease-in-out hover:text-text`}
@@ -111,9 +110,8 @@ export default function DivSideBar() {
             {configuration.map((link: LinkSection) => {
               const { title, href } = link;
               return (
-                <li>
+                <li key={title}>
                   <Link
-                    key={title}
                     className={`${
                       currentPage === `/${href}` ? "text-text" : "text-text/50"
                     } transition-all ease-in-out hover:text-text`}
@@ -132,9 +130,8 @@ export default function DivSideBar() {
             {demo.map((link: LinkSection) => {
               const { title, href } = link;
               return (
-                <li>
+                <li key={title}>
                   <Link
-                    key={title}
                     className={`${
                       currentPage === `/${href}` ? "text-text" : "text-text/50"
                     } transition-all ease-in-out hover:text-text`}

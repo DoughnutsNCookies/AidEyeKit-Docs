@@ -161,8 +161,8 @@ const config = [
           <Code color="primary">{`{{total}}`}</Code> as placeholders.
         </p>
         <p>
-          Eg: '<Code color="primary">{`{{current}}`}</Code> of{" "}
-          <Code color="primary">{`{{total}}`}</Code>'
+          Eg: &apos;<Code color="primary">{`{{current}}`}</Code> of{" "}
+          <Code color="primary">{`{{total}}`}</Code>&apos;
         </p>
       </div>
     ),

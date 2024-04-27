@@ -24,7 +24,7 @@ class LinkSection {
 const introduction: LinkSection[] = [
   new LinkSection("Home", ""),
   new LinkSection("Installation", "installation"),
-  new LinkSection("Example", "example"),
+  new LinkSection("Get Started", "get-started"),
 ];
 
 const configuration: LinkSection[] = [

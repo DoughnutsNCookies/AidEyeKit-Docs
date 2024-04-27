@@ -50,7 +50,7 @@ export default function Installation() {
               Home
             </Button>
           </NextLink>
-          <NextLink href="/example" className="w-[45%]">
+          <NextLink href="/get-started" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -58,7 +58,7 @@ export default function Installation() {
               endContent={<FaArrowRight />}
               fullWidth
             >
-              Example
+              Get Started
             </Button>
           </NextLink>
         </div>

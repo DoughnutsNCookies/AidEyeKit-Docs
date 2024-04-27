@@ -731,7 +731,7 @@ export default function AidEye() {
           </Card>
         </div>
         <div className="flex flex-row justify-between">
-          <NextLink href="/example" className="w-[45%]">
+          <NextLink href="/get-started" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -739,7 +739,7 @@ export default function AidEye() {
               startContent={<FaArrowLeft />}
               fullWidth
             >
-              Example
+              Get Started
             </Button>
           </NextLink>
           <NextLink href="/popover" className="w-[45%]">

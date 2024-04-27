@@ -286,7 +286,7 @@ export default function AidEye() {
                   >
                     options.config
                   </Code>{" "}
-                  - The current configuration options
+                  - The current configuration options.
                 </li>
                 <li>
                   <Code
@@ -295,7 +295,7 @@ export default function AidEye() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver
+                  - The current state of the driver.
                 </li>
               </ul>
             </CardBody>
@@ -339,7 +339,7 @@ export default function AidEye() {
                   >
                     element
                   </Code>{" "}
-                  - The target DOM element of the step
+                  - The target DOM element of the step.
                 </li>
                 <li>
                   <Code
@@ -348,7 +348,7 @@ export default function AidEye() {
                   >
                     step
                   </Code>{" "}
-                  - The step object configured for the step
+                  - The step object configured for the step.
                 </li>
                 <li>
                   <Code
@@ -357,7 +357,7 @@ export default function AidEye() {
                   >
                     options.config
                   </Code>{" "}
-                  - The current configuration options
+                  - The current configuration options.
                 </li>
                 <li>
                   <Code
@@ -366,7 +366,7 @@ export default function AidEye() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver
+                  - The current state of the driver.
                 </li>
               </ul>
             </CardBody>
@@ -457,7 +457,7 @@ export default function AidEye() {
                   >
                     element
                   </Code>{" "}
-                  - Currently active element
+                  - Currently active element.
                 </li>
                 <li>
                   <Code
@@ -466,7 +466,7 @@ export default function AidEye() {
                   >
                     step
                   </Code>{" "}
-                  - The step object configured for the currently active
+                  - The step object configured for the currently active.
                 </li>
                 <li>
                   <Code
@@ -475,7 +475,7 @@ export default function AidEye() {
                   >
                     options.config
                   </Code>{" "}
-                  - The current configuration options
+                  - The current configuration options.
                 </li>
                 <li>
                   <Code
@@ -484,7 +484,7 @@ export default function AidEye() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver
+                  - The current state of the driver.
                 </li>
               </ul>
             </CardBody>
@@ -551,7 +551,7 @@ export default function AidEye() {
                   >
                     element
                   </Code>{" "}
-                  - The current DOM element of the step
+                  - The current DOM element of the step.
                 </li>
                 <li>
                   <Code
@@ -560,7 +560,7 @@ export default function AidEye() {
                   >
                     step
                   </Code>{" "}
-                  - The step object configured for the step
+                  - The step object configured for the step.
                 </li>
                 <li>
                   <Code
@@ -569,7 +569,7 @@ export default function AidEye() {
                   >
                     options.config
                   </Code>{" "}
-                  - The current configuration options
+                  - The current configuration options.
                 </li>
                 <li>
                   <Code
@@ -578,7 +578,7 @@ export default function AidEye() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver
+                  - The current state of the driver.
                 </li>
               </ul>
             </CardBody>

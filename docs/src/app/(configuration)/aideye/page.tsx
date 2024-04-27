@@ -153,7 +153,19 @@ const config = [
     key: "16",
     Attribute: "progressText",
     Type: <Code color="primary">string</Code>,
-    Description: "Template for the progress text.",
+    Description: (
+      <div>
+        <p>
+          Template for the progress text. Use{" "}
+          <Code color="primary">{`{{current}}`}</Code> and{" "}
+          <Code color="primary">{`{{total}}`}</Code> as placeholders.
+        </p>
+        <p>
+          Eg: '<Code color="primary">{`{{current}}`}</Code> of{" "}
+          <Code color="primary">{`{{total}}`}</Code>'
+        </p>
+      </div>
+    ),
     Default: "-",
   },
   {
@@ -207,7 +219,9 @@ export default function AidEye() {
           </Card>
         </div>
         <div className="flex flex-col gap-8">
-          <h2 className="text-2xl font-bold sm:text-3xl">Configuration</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl">
+            AidEye Configuration
+          </h2>
           <p>
             You can configure aideye globally by passing the configuration
             object to the <Code color="primary">aideye</Code> call or by using

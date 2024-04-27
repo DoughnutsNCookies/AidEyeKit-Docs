@@ -218,7 +218,7 @@ export default function AidEye() {
             <SpanCode text="// Function call" color="grey" />
             <br />
             <SpanCode text="const" color="red" />{" "}
-            <SpanCode text="aideEyeObject" color="purple" />{" "}
+            <SpanCode text="myAidEye" color="purple" />{" "}
             <SpanCode text="=" color="white" />{" "}
             <SpanCode text="aideye" color="purple" />
             <SpanCode text="({" color="white" />{" "}
@@ -228,7 +228,7 @@ export default function AidEye() {
             <br />
             <SpanCode text="// Object method" color="grey" />
             <br />
-            <SpanCode text="aideEyeObject.setConfig" color="purple" />
+            <SpanCode text="myAidEye.setConfig" color="purple" />
             <SpanCode text="({" color="white" />{" "}
             <SpanCode text="/* ... */" color="grey" />{" "}
             <SpanCode text="});" color="white" />

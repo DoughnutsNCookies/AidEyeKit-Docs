@@ -33,9 +33,7 @@ export default function Installation() {
           </p>
           <Code color="primary" className="p-4">
             <SpanCode text="import" color="red" />{" "}
-            <SpanCode text="{" color="white" />{" "}
-            <SpanCode text="aideye" color="purple" />{" "}
-            <SpanCode text="}" color="white" />{" "}
+            <SpanCode text="{ aideye }" color="white" />{" "}
             <SpanCode text="from" color="red" />{" "}
             <SpanCode text='"aideyekit"' color="primary" />
             <SpanCode text=";" color="white" />

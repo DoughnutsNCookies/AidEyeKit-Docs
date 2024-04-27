@@ -317,7 +317,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
             <SpanCode text=";" color="white" />{" "}
           </Code>
         </div>
@@ -392,7 +392,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
             <br />
             <SpanCode text="onHighlighted" color="purple" />
             <SpanCode text=":" color="red" />{" "}
@@ -414,7 +414,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
             <br />
             <SpanCode text="onDeselected" color="purple" />
             <SpanCode text=":" color="red" />{" "}
@@ -436,7 +436,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
           </Code>
         </div>
         <div className="flex flex-col gap-8">
@@ -510,7 +510,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
             <br />
             <SpanCode text="onDestroyed" color="purple" />
             <SpanCode text=":" color="red" />{" "}
@@ -532,7 +532,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
           </Code>
         </div>
         <div className="flex flex-col gap-8">
@@ -604,7 +604,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
             <br />
             <SpanCode text="onPrevClick" color="purple" />
             <SpanCode text=":" color="red" />{" "}
@@ -626,7 +626,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
             <br />
             <SpanCode text="onCloseClick" color="purple" />
             <SpanCode text=":" color="red" />{" "}
@@ -648,7 +648,7 @@ export default function AidEye() {
             <SpanCode text=":" color="red" />{" "}
             <SpanCode text="State" color="purple" />{" "}
             <SpanCode text="})" color="white" />{" "}
-            <SpanCode text="=> void" color="primary" />
+            <SpanCode text="=> void" color="cyan" />
           </Code>
           <Card className="border-4 border-red-400 bg-secondary text-text">
             <CardHeader className="text-xl font-bold text-red-400">

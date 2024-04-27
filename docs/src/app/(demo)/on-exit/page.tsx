@@ -23,7 +23,7 @@ export default function OnExit() {
               Async
             </Button>
           </NextLink>
-          <NextLink href="/popup-position" className="w-[45%]">
+          <NextLink href="/pop-up-position" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -31,7 +31,7 @@ export default function OnExit() {
               endContent={<FaArrowRight />}
               fullWidth
             >
-              Popup Position
+              Pop-up Position
             </Button>
           </NextLink>
         </div>

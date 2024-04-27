@@ -12,7 +12,7 @@ export default function EventHandlers() {
           <h1 className="text-4xl font-bold sm:text-5xl">Event Handlers</h1>
         </div>
         <div className="flex flex-row justify-between">
-          <NextLink href="/popup-position" className="w-[45%]">
+          <NextLink href="/pop-up-position" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -20,7 +20,7 @@ export default function EventHandlers() {
               startContent={<FaArrowLeft />}
               fullWidth
             >
-              Popup Position
+              Pop-up Position
             </Button>
           </NextLink>
           <div className="w-[45%]" />

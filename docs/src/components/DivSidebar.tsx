@@ -43,7 +43,7 @@ const demo: LinkSection[] = [
   new LinkSection("Progress", "progress"),
   new LinkSection("Async", "async"),
   new LinkSection("On Exit", "on-exit"),
-  new LinkSection("Popup Position", "popup-position"),
+  new LinkSection("Pop-up Position", "pop-up-position"),
   new LinkSection("Event Handlers", "event-handlers"),
 ];
 

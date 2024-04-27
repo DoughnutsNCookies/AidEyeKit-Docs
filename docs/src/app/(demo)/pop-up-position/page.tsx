@@ -9,7 +9,7 @@ export default function PopupPosition() {
       <DivSideBar />
       <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 xl:w-[50vw] xl:min-w-[50vw]">
         <div className="flex flex-col gap-2">
-          <h1 className="text-4xl font-bold sm:text-5xl">Popup Position</h1>
+          <h1 className="text-4xl font-bold sm:text-5xl">Pop-up Position</h1>
         </div>
         <div className="flex flex-row justify-between">
           <NextLink href="/on-exit" className="w-[45%]">

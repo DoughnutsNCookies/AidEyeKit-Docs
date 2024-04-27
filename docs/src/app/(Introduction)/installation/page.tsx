@@ -58,7 +58,7 @@ export default function Installation() {
                   <NextUILink underline="always" href="/styling">
                     Styling
                   </NextUILink>{" "}
-                  section of this documentation
+                  section of this documentation.
                 </p>
               </div>
             </CardBody>

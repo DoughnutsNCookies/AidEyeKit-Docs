@@ -37,7 +37,7 @@ export default function GetStarted() {
         {
           popover: {
             title: "Without any element",
-            description: "You can popup without selecting an element as well.",
+            description: "You can pop-up without selecting an element as well.",
           },
         },
       ],
@@ -52,7 +52,7 @@ export default function GetStarted() {
       popover: {
         title: "Highlight element",
         description:
-          "Highlighting does not have any additional steps unlike guiding.",
+          "There are no additional steps involved in highlighting, unlike in guiding.",
       },
     });
   };
@@ -128,7 +128,7 @@ export default function GetStarted() {
               <SpanCode text="'Without an element'" color="primary" />
               <SpanCode text=", description: " color="white" />
               <SpanCode
-                text="'You can popup without selecting an element as well.'"
+                text="'You can pop-up without selecting an element as well.'"
                 color="primary"
               />
               <SpanCode text=" } }," color="white" />
@@ -184,7 +184,7 @@ export default function GetStarted() {
               &nbsp;&nbsp;&nbsp;&nbsp;
               <SpanCode text="description: " color="white" />
               <SpanCode
-                text="'Highlighting does not have any additional steps unlike guiding.'"
+                text="'There are no additional steps involved in highlighting, unlike in guiding.'"
                 color="primary"
               />
               <br />

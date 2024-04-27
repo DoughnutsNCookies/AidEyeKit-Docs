@@ -49,7 +49,7 @@ const config = [
     key: "2",
     Attribute: "animate",
     Type: <Code color="primary">boolean</Code>,
-    Description: "Product tour animation",
+    Description: "Product tour animation.",
     Default: <Code color="primary">true</Code>,
   },
   {
@@ -63,7 +63,7 @@ const config = [
     key: "4",
     Attribute: "smoothScroll",
     Type: <Code color="primary">boolean</Code>,
-    Description: "Highlighted element smooth scrolling",
+    Description: "Highlighted element smooth scrolling.",
     Default: <Code color="primary">false</Code>,
   },
   {
@@ -112,7 +112,7 @@ const config = [
     key: "11",
     Attribute: "popoverClass",
     Type: <Code color="primary">string</Code>,
-    Description: "If you want to add custom class to the popover",
+    Description: "If you want to add custom class to the popover.",
     Default: "-",
   },
   {
@@ -190,7 +190,7 @@ export default function AidEye() {
           <p>
             <span className="text-primary">Ai</span>dEyeKit is written in
             Typescript and built to be highly configurable. You can configure
-            aideye globally, per step, and even on the fly while it&apos;
+            aideye globally, per step, and even on the fly while it&apos;s
             running. All configuration options are optional.
           </p>
           <Card className="bg-secondary text-text">

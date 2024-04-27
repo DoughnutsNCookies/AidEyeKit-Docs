@@ -198,12 +198,7 @@ export default function GetStarted() {
               <SpanCode text="drive" color="purple" />
               <SpanCode text="();" color="white" />
             </Code>
-            <Button
-              fullWidth
-              id="guiding-btn"
-              color="secondary"
-              onClick={highlight}
-            >
+            <Button fullWidth color="secondary" onClick={highlight}>
               Try Highlighting!
             </Button>
           </div>

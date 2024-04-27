@@ -674,11 +674,8 @@ export default function AidEye() {
                   hooks, you control the navigation of the driver.
                 </p>
                 <p>
-                  <span className="text-red-400">
-                    This means that user won&apos;t be able to navigate using
-                    the buttons{" "}
-                  </span>
-                  and you will have to either call{" "}
+                  This means that user won&apos;t be able to navigate using the
+                  buttons and you will have to either call{" "}
                   <Code
                     color="primary"
                     className="bg-background/50 text-primary"

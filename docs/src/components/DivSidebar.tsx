@@ -90,15 +90,17 @@ export default function DivSideBar() {
             {introduction.map((link: LinkSection) => {
               const { title, href } = link;
               return (
-                <Link
-                  key={title}
-                  className={`${
-                    currentPage === `/${href}` ? "text-text" : "text-text/50"
-                  } transition-all ease-in-out hover:text-text`}
-                  href={`/${href}`}
-                >
-                  {title.charAt(0).toUpperCase() + title.slice(1)}
-                </Link>
+                <li>
+                  <Link
+                    key={title}
+                    className={`${
+                      currentPage === `/${href}` ? "text-text" : "text-text/50"
+                    } transition-all ease-in-out hover:text-text`}
+                    href={`/${href}`}
+                  >
+                    {title.charAt(0).toUpperCase() + title.slice(1)}
+                  </Link>
+                </li>
               );
             })}
           </ul>
@@ -109,15 +111,17 @@ export default function DivSideBar() {
             {configuration.map((link: LinkSection) => {
               const { title, href } = link;
               return (
-                <Link
-                  key={title}
-                  className={`${
-                    currentPage === `/${href}` ? "text-text" : "text-text/50"
-                  } transition-all ease-in-out hover:text-text`}
-                  href={`/${href}`}
-                >
-                  {title.charAt(0).toUpperCase() + title.slice(1)}
-                </Link>
+                <li>
+                  <Link
+                    key={title}
+                    className={`${
+                      currentPage === `/${href}` ? "text-text" : "text-text/50"
+                    } transition-all ease-in-out hover:text-text`}
+                    href={`/${href}`}
+                  >
+                    {title.charAt(0).toUpperCase() + title.slice(1)}
+                  </Link>
+                </li>
               );
             })}
           </ul>
@@ -128,15 +132,17 @@ export default function DivSideBar() {
             {demo.map((link: LinkSection) => {
               const { title, href } = link;
               return (
-                <Link
-                  key={title}
-                  className={`${
-                    currentPage === `/${href}` ? "text-text" : "text-text/50"
-                  } transition-all ease-in-out hover:text-text`}
-                  href={`/${href}`}
-                >
-                  {title.charAt(0).toUpperCase() + title.slice(1)}
-                </Link>
+                <li>
+                  <Link
+                    key={title}
+                    className={`${
+                      currentPage === `/${href}` ? "text-text" : "text-text/50"
+                    } transition-all ease-in-out hover:text-text`}
+                    href={`/${href}`}
+                  >
+                    {title.charAt(0).toUpperCase() + title.slice(1)}
+                  </Link>
+                </li>
               );
             })}
           </ul>

@@ -164,7 +164,7 @@ export default function GetStarted() {
               <SpanCode text="aideye" color="purple" />
               <SpanCode text="();" color="white" />
               <br />
-              <SpanCode text="driverObj." color="white" />
+              <SpanCode text="myAidEye." color="white" />
               <SpanCode text="highlight" color="white" />
               <SpanCode text="({" color="white" />
               <br />

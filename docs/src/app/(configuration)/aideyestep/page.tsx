@@ -154,7 +154,7 @@ export default function AidEyeStep() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver.
+                  - The current state of aidEye.
                 </li>
               </ul>
             </CardBody>

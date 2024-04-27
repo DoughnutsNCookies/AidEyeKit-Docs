@@ -309,7 +309,7 @@ export default function AidEye() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver.
+                  - The current state of aidEye.
                 </li>
               </ul>
             </CardBody>
@@ -380,7 +380,7 @@ export default function AidEye() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver.
+                  - The current state of aidEye.
                 </li>
               </ul>
             </CardBody>
@@ -457,7 +457,7 @@ export default function AidEye() {
           <h2 className="text-2xl font-bold sm:text-3xl">
             AidEye Destroy Hook
           </h2>
-          <p>Hooks to run before and after the driver is destroyed.</p>
+          <p>Hooks to run before and after aidEye is destroyed.</p>
           <Card className="bg-secondary text-text">
             <CardHeader className="text-xl font-bold text-primary">
               Each hook receives the following parameters:
@@ -498,7 +498,7 @@ export default function AidEye() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver.
+                  - The current state of aidEye.
                 </li>
               </ul>
             </CardBody>
@@ -592,7 +592,7 @@ export default function AidEye() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver.
+                  - The current state of aidEye.
                 </li>
               </ul>
             </CardBody>
@@ -685,7 +685,7 @@ export default function AidEye() {
                   >
                     onPrevClick
                   </Code>{" "}
-                  hooks, you control the navigation of the driver.
+                  hooks, you control the navigation of aidEye.
                 </p>
                 <p>
                   This means that the user won&apos;t be able to navigate using
@@ -694,14 +694,14 @@ export default function AidEye() {
                     color="primary"
                     className="bg-background/50 text-primary"
                   >
-                    driverObj.moveNext()
+                    myAidEye.moveNext()
                   </Code>{" "}
                   or{" "}
                   <Code
                     color="primary"
                     className="bg-background/50 text-primary"
                   >
-                    driverObj.movePrevious()
+                    myAidEye.movePrevious()
                   </Code>{" "}
                   to navigate to the next/previous step.
                 </p>
@@ -720,9 +720,9 @@ export default function AidEye() {
                     onPrevClick
                   </Code>{" "}
                   hooks can be configured at the step level as well. When
-                  configured at the driver level, you control the navigation for
-                  all the steps. When configured at the step level, you control
-                  the navigation for that particular step only.
+                  configured at aidEye level, you control the navigation for all
+                  the steps. When configured at the step level, you control the
+                  navigation for that particular step only.
                 </p>
               </div>
             </CardBody>

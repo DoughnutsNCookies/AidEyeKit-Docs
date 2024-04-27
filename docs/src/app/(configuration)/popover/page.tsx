@@ -156,9 +156,9 @@ export default function Popover() {
         <div className="flex flex-col gap-8">
           <h1 className="text-4xl font-bold sm:text-5xl">Popover</h1>
           <p>
-            The popover (PopoverDOM) is the main UI element of Driver.js.
-            It&apos;s the element that highlights the target element, and shows
-            the step content.
+            The popover (PopoverDOM) is the main UI element of{" "}
+            <span color="primary">Ai</span>dEyeKit. It&apos;s the element that
+            highlights the target element, and shows the step content.
           </p>
         </div>
         <div className="flex flex-col gap-8">
@@ -232,7 +232,7 @@ export default function Popover() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver.
+                  - The current state of aidEye.
                 </li>
               </ul>
             </CardBody>
@@ -301,7 +301,7 @@ export default function Popover() {
                   >
                     options.state
                   </Code>{" "}
-                  - The current state of the driver.
+                  - The current state of the aidEye.
                 </li>
               </ul>
             </CardBody>
@@ -394,7 +394,7 @@ export default function Popover() {
                   >
                     onPrevClick
                   </Code>{" "}
-                  hooks, you control the navigation of the driver.
+                  hooks, you control the navigation of the aidEye.
                 </p>
                 <p>
                   This means that the user won&apos;t be able to navigate using
@@ -403,14 +403,14 @@ export default function Popover() {
                     color="primary"
                     className="bg-background/50 text-primary"
                   >
-                    driverObj.moveNext()
+                    myAidEye.moveNext()
                   </Code>{" "}
                   or{" "}
                   <Code
                     color="primary"
                     className="bg-background/50 text-primary"
                   >
-                    driverObj.movePrevious()
+                    myAidEye.movePrevious()
                   </Code>{" "}
                   to navigate to the next/previous step.
                 </p>
@@ -429,9 +429,9 @@ export default function Popover() {
                     onPrevClick
                   </Code>{" "}
                   hooks can be configured at the step level as well. When
-                  configured at the driver level, you control the navigation for
-                  all the steps. When configured at the step level, you control
-                  the navigation for that particular step only.
+                  configured at aidEye level, you control the navigation for all
+                  the steps. When configured at the step level, you control the
+                  navigation for that particular step only.
                 </p>
               </div>
             </CardBody>

@@ -34,7 +34,7 @@ const stateRow = [
     key: "1",
     Attribute: "isInitialized",
     Type: <Code color="primary">boolean</Code>,
-    Description: "Whether the driver is currently active or not.",
+    Description: "Whether aidEye is currently active or not.",
   },
   {
     key: "2",

@@ -1,5 +1,12 @@
 import DivSideBar from "@/components/DivSidebar";
-import { Button, Code, Link as NextUILink } from "@nextui-org/react";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardHeader,
+  Code,
+  Link as NextUILink,
+} from "@nextui-org/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import NextLink from "next/link";
 import SpanCode from "@/components/SpanCode";
@@ -37,7 +44,29 @@ export default function Installation() {
             <SpanCode text='"aideyekit/dist/aideye.css"' color="primary" />
             <SpanCode text=";" color="white" />
           </Code>
+          <Card className="border-4 border-red-400 bg-secondary text-text">
+            <CardHeader className="text-xl font-bold text-red-400">
+              Important Note
+            </CardHeader>
+            <CardBody>
+              <div className="flex flex-col gap-4">
+                <p>
+                  You will need to import the CSS file for{" "}
+                  <span className="text-primary">Ai</span>dEyeKit to work
+                  properly.
+                </p>
+                <p>
+                  If you are want to style your own guide, you can visit the{" "}
+                  <NextUILink underline="always" href="/styling">
+                    Styling
+                  </NextUILink>{" "}
+                  section of this documentation
+                </p>
+              </div>
+            </CardBody>
+          </Card>
         </div>
+
         <div className="flex flex-row justify-between">
           <NextLink href="/" className="w-[45%]">
             <Button

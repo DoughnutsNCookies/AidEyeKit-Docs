@@ -33,7 +33,7 @@ const popoverColumn = [
   },
 ];
 
-const popover = [
+const popoverRow = [
   {
     key: "1",
     Attribute: "title",
@@ -184,7 +184,7 @@ export default function Popover() {
                 </TableColumn>
               )}
             </TableHeader>
-            <TableBody items={popover}>
+            <TableBody items={popoverRow}>
               {(item) => (
                 <TableRow key={item.key}>
                   {(columnKey) => (

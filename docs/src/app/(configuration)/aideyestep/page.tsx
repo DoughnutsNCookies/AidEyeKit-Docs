@@ -18,7 +18,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import NextLink from "next/link";
 import SpanCode from "@/components/SpanCode";
 
-const stepColumn = [
+const aidEyeStepColumn = [
   {
     key: "Attribute",
     label: "Attribute",
@@ -33,7 +33,7 @@ const stepColumn = [
   },
 ];
 
-const step = [
+const aidEyeStepRow = [
   {
     key: "1",
     Attribute: "element",
@@ -88,7 +88,7 @@ export default function AidEyeStep() {
             removeWrapper
             className="overflow-x-auto"
           >
-            <TableHeader columns={stepColumn}>
+            <TableHeader columns={aidEyeStepColumn}>
               {(column) => (
                 <TableColumn
                   className="bg-primary text-background"
@@ -98,7 +98,7 @@ export default function AidEyeStep() {
                 </TableColumn>
               )}
             </TableHeader>
-            <TableBody items={step}>
+            <TableBody items={aidEyeStepRow}>
               {(item) => (
                 <TableRow key={item.key}>
                   {(columnKey) => (

@@ -18,7 +18,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import NextLink from "next/link";
 import SpanCode from "@/components/SpanCode";
 
-const configColumn = [
+const aidEyeColumn = [
   {
     key: "Attribute",
     label: "Attribute",
@@ -37,7 +37,7 @@ const configColumn = [
   },
 ];
 
-const config = [
+const aidEyeRow = [
   {
     key: "1",
     Attribute: "steps",
@@ -253,7 +253,7 @@ export default function AidEye() {
             removeWrapper
             className="overflow-x-auto"
           >
-            <TableHeader columns={configColumn}>
+            <TableHeader columns={aidEyeColumn}>
               {(column) => (
                 <TableColumn
                   className="bg-primary text-background"
@@ -263,7 +263,7 @@ export default function AidEye() {
                 </TableColumn>
               )}
             </TableHeader>
-            <TableBody items={config}>
+            <TableBody items={aidEyeRow}>
               {(item) => (
                 <TableRow key={item.key}>
                   {(columnKey) => (
@@ -688,8 +688,8 @@ export default function AidEye() {
                   hooks, you control the navigation of the driver.
                 </p>
                 <p>
-                  This means that the user won&apos;t be able to navigate using the
-                  buttons and you will have to either call{" "}
+                  This means that the user won&apos;t be able to navigate using
+                  the buttons and you will have to either call{" "}
                   <Code
                     color="primary"
                     className="bg-background/50 text-primary"

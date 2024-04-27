@@ -41,7 +41,7 @@ const aidEyeRow = [
   {
     key: "1",
     Attribute: "steps",
-    Type: <Code color="primary">DriveStep[]</Code>,
+    Type: <Code color="primary">AidEyeStep[]</Code>,
     Description: "Array of steps to highlight.",
     Default: "-",
   },

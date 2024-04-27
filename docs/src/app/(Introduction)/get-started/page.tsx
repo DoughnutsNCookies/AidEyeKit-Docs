@@ -140,7 +140,7 @@ export default function GetStarted() {
               <br />
               <br />
               <SpanCode text="myAidEye." color="white" />
-              <SpanCode text="drive" color="purple" />
+              <SpanCode text="start" color="purple" />
               <SpanCode text="();" color="white" />
             </Code>
             <Button
@@ -195,7 +195,7 @@ export default function GetStarted() {
               <br />
               <br />
               <SpanCode text="myAidEye." color="white" />
-              <SpanCode text="drive" color="purple" />
+              <SpanCode text="start" color="purple" />
               <SpanCode text="();" color="white" />
             </Code>
             <Button fullWidth color="secondary" onClick={highlight}>

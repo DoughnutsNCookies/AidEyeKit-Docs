@@ -17,14 +17,14 @@ export default function StylingExample() {
           element: "#css",
           popover: {
             title: "CSS File",
-            description: "The CSS file used to style this example",
+            description: "The CSS file used to style this example.",
           },
         },
         {
           element: "#code",
           popover: {
             title: "Code",
-            description: "The code used to style this example",
+            description: "The code used to style this example.",
           },
         },
       ],
@@ -46,8 +46,9 @@ export default function StylingExample() {
         <div id="css" className="flex flex-col gap-8">
           <h2 className="text-2xl font-bold sm:text-3xl">CSS File</h2>
           <p>
-            Here&apos;s the CSS file used to style the example above. The file
-            is named <Code color="primary">myaideye-theme.css</Code>
+            Here&apos;s the CSS file used to style the example above. This file
+            is named <Code color="primary">myaideye-theme.css</Code>, but you
+            can name yours whatever you like.
           </p>
           <Code color="primary" className="w-full overflow-x-auto p-4">
             <SpanCode text=".aideye-popover.aideye-theme" color="green" />{" "}
@@ -268,6 +269,93 @@ export default function StylingExample() {
             <SpanCode text=";" color="white" />
             <br />
             <SpanCode text="}" color="white" />
+          </Code>
+        </div>
+        <div id="code" className="flex flex-col gap-8">
+          <h2 className="text-2xl font-bold sm:text-3xl">Code</h2>
+          <p>Here&apos;s the code used to style the example above.</p>
+          <Code color="primary" className="w-full overflow-x-auto p-4">
+            <SpanCode text="const" color="cyan" />{" "}
+            <SpanCode text="myAidEye" color="white" />{" "}
+            <SpanCode text="=" color="red" />{" "}
+            <SpanCode text="aideye" color="purple" />
+            <SpanCode text="({" color="white" />
+            <br />
+            &nbsp;&nbsp;
+            <SpanCode text="popoverClass:" color="white" />{" "}
+            <SpanCode text="'aideye-theme'" color="primary" />
+            <SpanCode text="," color="white" />
+            <br />
+            &nbsp;&nbsp;
+            <SpanCode text="steps: [" color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="{" color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="element:" color="white" />{" "}
+            <SpanCode text="'#css'" color="primary" />
+            <SpanCode text="," color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="popover: {" color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="title:" color="white" />{" "}
+            <SpanCode text="'CSS File'" color="primary" />
+            <SpanCode text="," color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="description:" color="white" />{" "}
+            <SpanCode
+              text="'The CSS file used to style this example.'"
+              color="primary"
+            />{" "}
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="}" color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="}," color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="{" color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="element:" color="white" />{" "}
+            <SpanCode text="'#code'" color="primary" />
+            <SpanCode text="," color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="popover: {" color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="title:" color="white" />{" "}
+            <SpanCode text="'Code'" color="primary" />
+            <SpanCode text="," color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="description:" color="white" />{" "}
+            <SpanCode
+              text="'The code used to style this example.'"
+              color="primary"
+            />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="}" color="white" />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <SpanCode text="}" color="white" />
+            <br />
+            &nbsp;&nbsp;
+            <SpanCode text="]" color="white" />
+            <br />
+            <SpanCode text="});" color="white" />
+            <br />
+            <br />
+            <SpanCode text="myAidEye." color="white" />
+            <SpanCode text="start" color="purple" />
+            <SpanCode text="();" color="white" />
           </Code>
         </div>
         <div className="flex flex-row justify-between">

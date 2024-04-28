@@ -78,7 +78,7 @@ export default function GetStarted() {
             steps.
           </p>
           <div>
-            {/* <Code color="primary" className="w-full overflow-x-auto p-4">
+            <Code color="primary" className="w-full overflow-x-auto p-4">
               <SpanCode text="const" color="cyan" />{" "}
               <SpanCode text="myAidEye" color="white" />{" "}
               <SpanCode text="=" color="red" />{" "}
@@ -142,7 +142,7 @@ export default function GetStarted() {
               <SpanCode text="myAidEye." color="white" />
               <SpanCode text="start" color="purple" />
               <SpanCode text="();" color="white" />
-            </Code> */}
+            </Code>
             <Button
               fullWidth
               id="guiding-btn"

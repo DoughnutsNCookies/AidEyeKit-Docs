@@ -33,7 +33,12 @@ const configuration: LinkSection[] = [
   new LinkSection("AidEyeStep", "aideyestep"),
   new LinkSection("State", "state"),
   new LinkSection("API List", "api-list"),
-  new LinkSection("Theme", "theme"),
+];
+
+const theme: LinkSection[] = [
+  new LinkSection("CSS Classes", "css-classes"),
+  new LinkSection("Applying CSS", "applying-css"),
+  new LinkSection("Overlay Color", "overlay-color"),
 ];
 
 const demo: LinkSection[] = [
@@ -125,6 +130,26 @@ export default function DivSideBar() {
           </ul>
         </div>
         <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">
+          <h3 className="text-xl font-bold text-primary">Theme</h3>
+          <ul className="flex flex-col items-end gap-1 text-text/50">
+            {theme.map((link: LinkSection) => {
+              const { title, href } = link;
+              return (
+                <li key={title}>
+                  <Link
+                    className={`${
+                      currentPage === `/${href}` ? "text-text" : "text-text/50"
+                    } transition-all ease-in-out hover:text-text`}
+                    href={`/${href}`}
+                  >
+                    {title.charAt(0).toUpperCase() + title.slice(1)}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">
           <h3 className="text-xl font-bold text-primary">Demo</h3>
           <ul className="flex flex-col items-end gap-1 text-text/50">
             {demo.map((link: LinkSection) => {
@@ -174,6 +199,25 @@ export default function DivSideBar() {
             <h3 className="text-xl font-bold text-primary">Configuration</h3>
             <ul className="flex flex-col items-end gap-1 text-text/50">
               {configuration.map((link: LinkSection) => {
+                const { title, href } = link;
+                return (
+                  <Link
+                    key={title}
+                    className={`${
+                      currentPage === `/${href}` ? "text-text" : "text-text/50"
+                    } transition-all ease-in-out hover:text-text`}
+                    href={`/${href}`}
+                  >
+                    {title.charAt(0).toUpperCase() + title.slice(1)}
+                  </Link>
+                );
+              })}
+            </ul>
+          </div>
+          <div className="flex flex-col items-end justify-between gap-2 p-4 text-end">
+            <h3 className="text-xl font-bold text-primary">Theme</h3>
+            <ul className="flex flex-col items-end gap-1 text-text/50">
+              {theme.map((link: LinkSection) => {
                 const { title, href } = link;
                 return (
                   <Link

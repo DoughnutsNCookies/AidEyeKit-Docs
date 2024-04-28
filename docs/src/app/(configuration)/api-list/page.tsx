@@ -233,7 +233,7 @@ export default function APIList() {
               State
             </Button>
           </NextLink>
-          <NextLink href="/theme" className="w-[45%]">
+          <NextLink href="/css-classes" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -241,7 +241,7 @@ export default function APIList() {
               endContent={<FaArrowRight />}
               fullWidth
             >
-              Theme
+              CSS Classes
             </Button>
           </NextLink>
         </div>

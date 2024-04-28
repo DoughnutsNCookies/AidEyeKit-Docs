@@ -72,7 +72,7 @@ const stateRow = [
     Attribute: "popover",
     Type: <Code color="primary">PopoverDOM</Code>,
     Description:
-      "DOM elements for the popover: container, title, description, buttons, and etc.",
+      "DOM elements for the popover: container, title, description, buttons, etc.",
   },
 ];
 

@@ -1,8 +1,86 @@
+"use client";
 import DivSideBar from "@/components/DivSidebar";
-import { Button, Code } from "@nextui-org/react";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardHeader,
+  Code,
+  Table,
+  TableBody,
+  TableCell,
+  TableColumn,
+  TableHeader,
+  TableRow,
+  getKeyValue,
+} from "@nextui-org/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import NextLink from "next/link";
 import SpanCode from "@/components/SpanCode";
+
+const popoverColumn = [
+  {
+    key: "Attribute",
+    label: "Attribute",
+  },
+  {
+    key: "Type",
+    label: "Type",
+  },
+];
+
+const popoverRow = [
+  {
+    key: "1",
+    Attribute: "wrapper",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "2",
+    Attribute: "arrow",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "3",
+    Attribute: "title",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "4",
+    Attribute: "description",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "5",
+    Attribute: "footer",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "6",
+    Attribute: "progress",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "7",
+    Attribute: "previousButton",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "8",
+    Attribute: "nextButton",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "9",
+    Attribute: "closeButton",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+  {
+    key: "10",
+    Attribute: "footerButtons",
+    Type: <Code color="primary">HTMLElement</Code>,
+  },
+];
 
 export default function ApplyingCSS() {
   return (
@@ -89,6 +167,99 @@ export default function ApplyingCSS() {
             <br />
             <SpanCode text="});" color="white" />{" "}
           </Code>
+        </div>
+        <div className="flex flex-col gap-8">
+          <h2 className="text-2xl font-bold sm:text-3xl">
+            Popover Document Object Model (DOM)
+          </h2>
+          <p>
+            Alternatively, you can also use the{" "}
+            <Code color="primary">onPopoverRender</Code> hook to modify the
+            popover DOM before it is displayed. The hook is called with the
+            popover DOM as the first argument.
+          </p>
+          <Card className="bg-secondary text-text">
+            <CardHeader className="text-xl font-bold text-primary">
+              This hook has the following parameters:
+            </CardHeader>
+            <CardBody>
+              <ul className="flex flex-col gap-1">
+                <li>
+                  <Code
+                    color="primary"
+                    className="bg-background/50 text-primary"
+                  >
+                    popover
+                  </Code>{" "}
+                  - An object with references to the popover DOM elements such
+                  as buttons, title, descriptions, body, container, etc.
+                </li>
+                <li>
+                  <Code
+                    color="primary"
+                    className="bg-background/50 text-primary"
+                  >
+                    options.config
+                  </Code>{" "}
+                  - The current configuration options.
+                </li>
+                <li>
+                  <Code
+                    color="primary"
+                    className="bg-background/50 text-primary"
+                  >
+                    options.state
+                  </Code>{" "}
+                  - The current state of aidEye.
+                </li>
+              </ul>
+            </CardBody>
+          </Card>
+          <Code color="primary" className="overflow-x-auto p-4">
+            <SpanCode text="onPopoverRender" color="purple" />
+            <SpanCode text=":" color="red" />{" "}
+            <SpanCode text="(" color="white" />
+            <SpanCode text="popover" color="orange" />
+            <SpanCode text=":" color="red" />{" "}
+            <SpanCode text="PopoverDOM" color="purple" />
+            <SpanCode text="," color="white" />{" "}
+            <SpanCode text="options" color="orange" />
+            <SpanCode text=":" color="red" />{" "}
+            <SpanCode text="{ config" color="white" />
+            <SpanCode text=":" color="red" />{" "}
+            <SpanCode text="Config" color="purple" />
+            <SpanCode text="; state" color="white" />
+            <SpanCode text=":" color="red" />{" "}
+            <SpanCode text="State" color="purple" />{" "}
+            <SpanCode text="})" color="white" />{" "}
+            <SpanCode text="=> void" color="cyan" />
+            <SpanCode text=";" color="white" />{" "}
+          </Code>
+          <Table
+            aria-label="AidEye configuration list"
+            removeWrapper
+            className="overflow-x-auto"
+          >
+            <TableHeader columns={popoverColumn}>
+              {(column) => (
+                <TableColumn
+                  className="bg-primary text-background"
+                  key={column.key}
+                >
+                  {column.label}
+                </TableColumn>
+              )}
+            </TableHeader>
+            <TableBody items={popoverRow}>
+              {(item) => (
+                <TableRow key={item.key}>
+                  {(columnKey) => (
+                    <TableCell>{getKeyValue(item, columnKey)}</TableCell>
+                  )}
+                </TableRow>
+              )}
+            </TableBody>
+          </Table>
         </div>
         <div className="flex flex-row justify-between">
           <NextLink href="/api-list" className="w-[45%]">

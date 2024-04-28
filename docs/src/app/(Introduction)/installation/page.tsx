@@ -15,7 +15,7 @@ export default function Installation() {
   return (
     <main className="flex flex-col sm:h-screen sm:flex-row">
       <DivSideBar />
-      <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 xl:w-[50vw] xl:min-w-[50vw]">
+      <div className="flex w-full flex-col gap-10 border-primary/30 px-4 py-10 sm:w-[75vw] sm:border-l-1 sm:py-20 md:px-10 xl:w-[50vw] xl:min-w-[50vw]">
         <div className="flex flex-col gap-8">
           <h1 className="text-4xl font-bold sm:text-5xl">Installation</h1>
           <p>Run the following command to install the package.</p>

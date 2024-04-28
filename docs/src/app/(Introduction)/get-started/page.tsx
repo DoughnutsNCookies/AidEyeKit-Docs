@@ -60,7 +60,7 @@ export default function GetStarted() {
   return (
     <main className="flex flex-col sm:flex-row">
       <DivSideBar />
-      <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 xl:w-[50vw] xl:min-w-[50vw]">
+      <div className="flex w-full flex-col gap-10 border-primary/30 px-4 py-10 sm:w-[75vw] sm:border-l-1 sm:py-20 md:px-10 xl:w-[50vw] xl:min-w-[50vw]">
         <div className="flex flex-col gap-8">
           <h1 id="id" className="text-4xl font-bold sm:text-5xl">
             Get Started
@@ -78,7 +78,7 @@ export default function GetStarted() {
             steps.
           </p>
           <div>
-            <Code color="primary" className="w-full overflow-x-auto p-4">
+            {/* <Code color="primary" className="w-full overflow-x-auto p-4">
               <SpanCode text="const" color="cyan" />{" "}
               <SpanCode text="myAidEye" color="white" />{" "}
               <SpanCode text="=" color="red" />{" "}
@@ -142,7 +142,7 @@ export default function GetStarted() {
               <SpanCode text="myAidEye." color="white" />
               <SpanCode text="start" color="purple" />
               <SpanCode text="();" color="white" />
-            </Code>
+            </Code> */}
             <Button
               fullWidth
               id="guiding-btn"

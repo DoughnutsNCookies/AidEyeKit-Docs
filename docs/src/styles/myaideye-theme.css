@@ -1,0 +1,52 @@
+.aideye-popover.aideye-theme {
+  background-color: #344073;
+  color: #f2fdff;
+}
+
+.aideye-popover.aideye-theme .aideye-popover-title {
+  font-size: 20px;
+}
+
+.aideye-popover.aideye-theme .aideye-popover-title,
+.aideye-popover.aideye-theme .aideye-popover-description,
+.aideye-popover.aideye-theme .aideye-popover-progress-text {
+  color: #f2fdff;
+}
+
+.aideye-popover.aideye-theme button {
+  flex: 1;
+  text-align: center;
+  background-color: #f2fdff;
+  color: #101935;
+  border: 2px solid #f2fdff;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 6px;
+}
+
+.aideye-popover.aideye-theme .aideye-popover-close-btn {
+  color: #f2fdff;
+  padding: 0;
+  background-color: #344073;
+  border: none;
+}
+
+.aideye-popover.aideye-theme
+  .aideye-popover-arrow-side-left.aideye-popover-arrow {
+  border-left-color: #344073;
+}
+
+.aideye-popover.aideye-theme
+  .aideye-popover-arrow-side-right.aideye-popover-arrow {
+  border-right-color: #344073;
+}
+
+.aideye-popover.aideye-theme
+  .aideye-popover-arrow-side-top.aideye-popover-arrow {
+  border-top-color: #344073;
+}
+
+.aideye-popover.aideye-theme
+  .aideye-popover-arrow-side-bottom.aideye-popover-arrow {
+  border-bottom-color: #344073;
+}

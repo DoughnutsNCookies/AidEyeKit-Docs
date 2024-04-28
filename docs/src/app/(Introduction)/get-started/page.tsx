@@ -94,44 +94,106 @@ export default function GetStarted() {
               <SpanCode text="steps: [" color="white" />
               <br />
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <SpanCode text="{ element: " color="white" />
+              <SpanCode text="{" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="element:" color="white" />{" "}
               <SpanCode text="'#id'" color="primary" />
-              <SpanCode text=", popover: { title: " color="white" />
+              <SpanCode text="," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="popover: {" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="title:" color="white" />{" "}
               <SpanCode text="'Select through element ID'" color="primary" />
-              <SpanCode text=", description: " color="white" />
+              <SpanCode text="," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="description:" color="white" />{" "}
               <SpanCode text="'By using id='id''" color="primary" />
-              <SpanCode text=" } }," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="}" color="white" />
               <br />
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <SpanCode text="{ element: " color="white" />
+              <SpanCode text="}," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="{" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="element:" color="white" />{" "}
               <SpanCode text="'.class'" color="primary" />
-              <SpanCode text=", popover: { title: " color="white" />
+              <SpanCode text="," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="popover: {" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="title:" color="white" />{" "}
               <SpanCode text="'Or through class'" color="primary" />
-              <SpanCode text=", description: " color="white" />
+              <SpanCode text="," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="description:" color="white" />{" "}
               <SpanCode text="'By using class='class''" color="primary" />
-              <SpanCode text=" } }," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="}" color="white" />
               <br />
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <SpanCode text="{ element: " color="white" />
+              <SpanCode text="}," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="{" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="element:" color="white" />{" "}
               <SpanCode text="'#guiding'" color="primary" />
-              <SpanCode text=", popover: { title: " color="white" />
+              <SpanCode text="," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="popover: {" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="title:" color="white" />{" "}
               <SpanCode text="'Keyboard supported'" color="primary" />
-              <SpanCode text=", description: " color="white" />
+              <SpanCode text="," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="description:" color="white" />{" "}
               <SpanCode
                 text="'You can use your keyboard's arrow keys to control the guide.'"
                 color="primary"
               />
-              <SpanCode text=" } }," color="white" />
               <br />
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <SpanCode text="{ popover: { title: " color="white" />
+              <SpanCode text="}," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="{" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="popover: {" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="title:" color="white" />{" "}
               <SpanCode text="'Without an element'" color="primary" />
-              <SpanCode text=", description: " color="white" />
+              <SpanCode text="," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="description:" color="white" />{" "}
               <SpanCode
                 text="'You can pop-up without selecting an element as well.'"
                 color="primary"
               />
-              <SpanCode text=" } }," color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="}" color="white" />
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <SpanCode text="}" color="white" />
               <br />
               &nbsp;&nbsp;
               <SpanCode text="]" color="white" />

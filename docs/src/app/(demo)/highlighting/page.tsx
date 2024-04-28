@@ -13,7 +13,7 @@ export default function Highlighting() {
           <p>Documentations coming soon!</p>
         </div>
         <div className="flex flex-row justify-between">
-          <NextLink href="/overlay-color" className="w-[45%]">
+          <NextLink href="/overlay" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -21,7 +21,7 @@ export default function Highlighting() {
               startContent={<FaArrowLeft />}
               fullWidth
             >
-              Overlay Color
+              Overlay
             </Button>
           </NextLink>
           <NextLink href="/animation" className="w-[45%]">

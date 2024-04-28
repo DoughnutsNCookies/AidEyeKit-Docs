@@ -39,7 +39,7 @@ const theme: LinkSection[] = [
   new LinkSection("Applying CSS", "applying-css"),
   new LinkSection("CSS Classes", "css-classes"),
   new LinkSection("Styling Example", "styling-example"),
-  new LinkSection("Overlay Color", "overlay-color"),
+  new LinkSection("Overlay", "overlay"),
 ];
 
 const demo: LinkSection[] = [

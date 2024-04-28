@@ -370,7 +370,7 @@ export default function StylingExample() {
               CSS Classes
             </Button>
           </NextLink>
-          <NextLink href="/overlay-color" className="w-[45%]">
+          <NextLink href="/overlay" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -378,7 +378,7 @@ export default function StylingExample() {
               endContent={<FaArrowRight />}
               fullWidth
             >
-              Overlay Color
+              Overlay
             </Button>
           </NextLink>
         </div>

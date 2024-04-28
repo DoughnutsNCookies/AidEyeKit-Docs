@@ -208,29 +208,20 @@ export default function Popover() {
             <CardBody>
               <ul className="flex flex-col gap-1">
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     popover
                   </Code>{" "}
                   - An object with references to the popover DOM elements such
                   as buttons, title, descriptions, body, container, etc.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     options.config
                   </Code>{" "}
                   - The current configuration options.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     options.state
                   </Code>{" "}
                   - The current state of aidEye.
@@ -269,37 +260,25 @@ export default function Popover() {
             <CardBody>
               <ul className="flex flex-col gap-1">
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     element
                   </Code>{" "}
                   - The current DOM element of the step.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     step
                   </Code>{" "}
                   - The step object configured for the step.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     options.config
                   </Code>{" "}
                   - The current configuration options.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     options.state
                   </Code>{" "}
                   - The current state of the aidEye.
@@ -382,17 +361,11 @@ export default function Popover() {
               <div className="flex flex-col gap-4">
                 <p>
                   By overriding{" "}
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     onNextClick
                   </Code>{" "}
                   and {""}
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     onPrevClick
                   </Code>{" "}
                   hooks, you control the navigation of the aidEye.
@@ -400,33 +373,21 @@ export default function Popover() {
                 <p>
                   This means that the user won&apos;t be able to navigate using
                   the buttons and you will have to either call{" "}
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     myAidEye.moveNext()
                   </Code>{" "}
                   or{" "}
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     myAidEye.movePrevious()
                   </Code>{" "}
                   to navigate to the next/previous step.
                 </p>
                 <p>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     onNextClick
                   </Code>{" "}
                   and{" "}
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     onPrevClick
                   </Code>{" "}
                   hooks can be configured at the step level as well. When

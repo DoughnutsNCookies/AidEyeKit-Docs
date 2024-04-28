@@ -185,29 +185,20 @@ export default function ApplyingCSS() {
             <CardBody>
               <ul className="flex flex-col gap-1">
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     popover
                   </Code>{" "}
                   - An object with references to the popover DOM elements such
                   as buttons, title, descriptions, body, container, etc.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     options.config
                   </Code>{" "}
                   - The current configuration options.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     options.state
                   </Code>{" "}
                   - The current state of aidEye.

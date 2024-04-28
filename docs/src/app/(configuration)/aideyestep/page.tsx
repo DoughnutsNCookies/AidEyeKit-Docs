@@ -121,37 +121,25 @@ export default function AidEyeStep() {
             <CardBody>
               <ul className="flex flex-col gap-1">
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     element
                   </Code>{" "}
                   - The target DOM element of the step.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     step
                   </Code>{" "}
                   - The step object configured for the step.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     options.config
                   </Code>{" "}
                   - The current configuration options.
                 </li>
                 <li>
-                  <Code
-                    color="primary"
-                    className="bg-background/50 text-primary"
-                  >
+                  <Code color="primary" className="bg-background/50">
                     options.state
                   </Code>{" "}
                   - The current state of aidEye.

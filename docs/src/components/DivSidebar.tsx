@@ -36,8 +36,8 @@ const configuration: LinkSection[] = [
 ];
 
 const theme: LinkSection[] = [
-  new LinkSection("CSS Classes", "css-classes"),
   new LinkSection("Applying CSS", "applying-css"),
+  new LinkSection("CSS Classes", "css-classes"),
   new LinkSection("Overlay Color", "overlay-color"),
 ];
 

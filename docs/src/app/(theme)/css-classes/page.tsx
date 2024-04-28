@@ -151,7 +151,7 @@ export default function CSSClasses() {
           </Table>
         </div>
         <div className="flex flex-row justify-between">
-          <NextLink href="/api-list" className="w-[45%]">
+          <NextLink href="/applying-css" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -159,10 +159,10 @@ export default function CSSClasses() {
               startContent={<FaArrowLeft />}
               fullWidth
             >
-              API List
+              Applying CSS
             </Button>
           </NextLink>
-          <NextLink href="/applying-css" className="w-[45%]">
+          <NextLink href="/overlay-color" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -170,7 +170,7 @@ export default function CSSClasses() {
               endContent={<FaArrowRight />}
               fullWidth
             >
-              Applying CSS
+              Overlay Color
             </Button>
           </NextLink>
         </div>

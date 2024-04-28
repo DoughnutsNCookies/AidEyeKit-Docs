@@ -13,7 +13,7 @@ export default function OverlayColor() {
           <p>Documentations coming soon!</p>
         </div>
         <div className="flex flex-row justify-between">
-          <NextLink href="/applying-css" className="w-[45%]">
+          <NextLink href="/css-classes" className="w-[45%]">
             <Button
               size="md"
               variant="ghost"
@@ -21,7 +21,7 @@ export default function OverlayColor() {
               startContent={<FaArrowLeft />}
               fullWidth
             >
-              Applying CSS
+              CSS Classes
             </Button>
           </NextLink>
           <NextLink href="/highlighting" className="w-[45%]">

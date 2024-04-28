@@ -62,7 +62,7 @@ export default function DivSideBar() {
 
   return (
     <div>
-      <aside className="my-20 ml-4 hidden w-[25vw] min-w-[25vw] items-center sm:block">
+      <aside className="my-20 ml-4 hidden items-center sm:block xl:w-[25vw] xl:min-w-[25vw]">
         <div className="flex flex-col items-end justify-between gap-4 pb-4 pr-4 text-end">
           <Link href="/">
             <Image

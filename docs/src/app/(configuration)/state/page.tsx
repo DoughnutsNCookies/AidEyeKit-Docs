@@ -81,7 +81,7 @@ export default function State() {
     <main className="flex flex-col sm:flex-row">
       <DivSideBar />
       <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 xl:w-[50vw] xl:min-w-[50vw]">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-8">
           <h1 className="text-4xl font-bold sm:text-5xl">State</h1>
           <p>
             You can access the current state of aideye by calling the{" "}

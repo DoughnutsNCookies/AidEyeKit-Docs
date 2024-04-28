@@ -189,38 +189,38 @@ export default function APIList() {
     <main className="flex flex-col sm:flex-row">
       <DivSideBar />
       <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 xl:w-[50vw] xl:min-w-[50vw]">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-8">
           <h1 className="text-4xl font-bold sm:text-5xl">API List</h1>
           <p>
             The list of methods provided by <Code color="primary">aideye</Code>{" "}
             after initialization.
           </p>
+          <Table
+            aria-label="AidEye configuration list"
+            removeWrapper
+            className="overflow-x-auto"
+          >
+            <TableHeader columns={apiListColumn}>
+              {(column) => (
+                <TableColumn
+                  className="bg-primary text-background"
+                  key={column.key}
+                >
+                  {column.label}
+                </TableColumn>
+              )}
+            </TableHeader>
+            <TableBody items={apiListRow}>
+              {(item) => (
+                <TableRow key={item.key}>
+                  {(columnKey) => (
+                    <TableCell>{getKeyValue(item, columnKey)}</TableCell>
+                  )}
+                </TableRow>
+              )}
+            </TableBody>
+          </Table>
         </div>
-        <Table
-          aria-label="AidEye configuration list"
-          removeWrapper
-          className="overflow-x-auto"
-        >
-          <TableHeader columns={apiListColumn}>
-            {(column) => (
-              <TableColumn
-                className="bg-primary text-background"
-                key={column.key}
-              >
-                {column.label}
-              </TableColumn>
-            )}
-          </TableHeader>
-          <TableBody items={apiListRow}>
-            {(item) => (
-              <TableRow key={item.key}>
-                {(columnKey) => (
-                  <TableCell>{getKeyValue(item, columnKey)}</TableCell>
-                )}
-              </TableRow>
-            )}
-          </TableBody>
-        </Table>
         <div className="flex flex-row justify-between">
           <NextLink href="/state" className="w-[45%]">
             <Button

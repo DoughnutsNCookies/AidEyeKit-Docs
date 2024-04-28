@@ -9,7 +9,7 @@ export default function Installation() {
     <main className="flex flex-col sm:flex-row">
       <DivSideBar />
       <div className="flex flex-col gap-10 border-primary/30 px-4 py-10 sm:border-l-1 sm:px-10 sm:py-20 xl:w-[50vw] xl:min-w-[50vw]">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-8">
           <h1 className="text-4xl font-bold sm:text-5xl">
             <span className="text-primary">Ai</span>dEyeKit Documentation
           </h1>
@@ -18,7 +18,7 @@ export default function Installation() {
             examples and demo built into this documentation.
           </p>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-8">
           <h2 className="text-2xl font-bold sm:text-3xl">
             Why <span className="text-primary">Ai</span>dEyeKit?
           </h2>
@@ -30,7 +30,7 @@ export default function Installation() {
             <li>Lightweight</li>
           </ul>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-8">
           <h2 className="text-2xl font-bold sm:text-3xl">Social Medias</h2>
           <ul className="flex flex-col gap-2">
             <li>
@@ -62,7 +62,7 @@ export default function Installation() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-8">
           <h2 className="text-2xl font-bold sm:text-3xl">Authors</h2>
           <ul>
             <li>

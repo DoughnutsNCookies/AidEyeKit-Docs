@@ -157,8 +157,9 @@ export default function Popover() {
           <h1 className="text-4xl font-bold sm:text-5xl">Popover</h1>
           <p>
             The popover (PopoverDOM) is the main UI element of{" "}
-            <span color="primary">Ai</span>dEyeKit. It&apos;s the element that
-            highlights the target element, and shows the step content.
+            <span className="text-primary">Ai</span>dEyeKit. It&apos;s the
+            element that highlights the target element, and shows the step
+            content.
           </p>
         </div>
         <div className="flex flex-col gap-8">

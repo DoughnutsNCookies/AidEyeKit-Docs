@@ -67,8 +67,8 @@ export default function AidEyeStep() {
           <h1 className="text-4xl font-bold sm:text-5xl">AidEyeStep</h1>
           <p>
             AidEyeStep is the configuration object passed to the{" "}
-            <Code color="primary">highlight</Code>
-            method or the <Code color="primary">steps</Code> array of the{" "}
+            <Code color="primary">highlight</Code> method or the{" "}
+            <Code color="primary">steps</Code> array of the{" "}
             <Code color="primary">start</Code> method.
           </p>
           <p>

@@ -40,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-background text-text">
       <body className="bg-background text-text">{children}</body>
     </html>
   );

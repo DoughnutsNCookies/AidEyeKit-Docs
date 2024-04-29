@@ -13,7 +13,7 @@ import SpanCode from "@/components/SpanCode";
 
 export default function Installation() {
   return (
-    <main className="flex flex-col sm:h-screen sm:flex-row">
+    <main className="flex flex-col sm:flex-row">
       <DivSideBar />
       <div className="flex w-full flex-col gap-10 border-primary/30 px-4 py-10 sm:w-[75vw] sm:border-l-1 sm:py-20 xl:w-[50vw] xl:min-w-[50vw]">
         <div className="flex flex-col gap-8">

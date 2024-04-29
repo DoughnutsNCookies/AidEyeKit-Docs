@@ -32,7 +32,7 @@ export default function Installation() {
         </div>
         <div className="flex flex-col gap-8">
           <h2 className="text-2xl font-bold sm:text-3xl">Social Medias</h2>
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col gap-8">
             <li>
               <NextUILink
                 href="https://x.com/AidEyeKit"
